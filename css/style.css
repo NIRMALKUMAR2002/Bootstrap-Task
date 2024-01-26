@@ -248,6 +248,9 @@
   
 
 }
+.home-maintenance h5{
+    margin-top: 10px;
+}
 /* electrical */
 .electrical{
     width: 80%;
@@ -265,6 +268,9 @@
 }
 .electrical:hover{
     background: orange;
+}
+.electrical h5{
+    margin-top: 10px;
 }
 .plumbing{
     width: 80%;
@@ -288,6 +294,9 @@
     height:90px;
     background: transparent;
 }
+.plumbing h5{
+    margin-top: 10px;
+}
 /* ourclientsay */
 .ourclientsayh4 h4{
     margin-top: 70px;
@@ -298,9 +307,11 @@
 .ourclientsay{
     margin-top: 100px;
 }
+/* client1 */
 .client1{
-    width:88%;
-    height:110%;
+
+    width:85%;
+    height:90%;
     background: white;
     box-shadow:0 8px 32px 0 rgba(31,38,135,.38);
     margin-left: 90px;
@@ -308,20 +319,226 @@
  
 }
 .client1para p{
-    margin-top:50px;
+    margin-top:80px;
     font-size:16px;
 }
 .client1 img{
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: -300px;
 
+
 }
+.client1name h5{
+    margin-top: -80px;
+    margin-right: 60px;
+    font-size:17px;
+}
+
+/* client2 */
 .client2{
-    width:85%;
+    width:88%;
     height:100%;
-    margin-left: 30px;
+  
+    margin-left: 10px;
     background: white;
     box-shadow:0 8px 32px 0 rgba(31,38,135,.38);
     text-align:center;
+    padding:20px;
+}
+.client2 img{
+    margin-right: 310px;
+    width:120px;
+}
+.client2para p{
+    margin-top: 70px;
+    font-size:16px;
+}
+.client2name h5{
+    margin-top: -70px;
+    margin-right: 90px;
+    font-size:17px;
+}
+/* logos */
+/* leftarrow */
+.logos{
+    margin-top: 50px;
+}
+.leftarrow{
+    background: blue;
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftarrow i{
+    font-size:2rem;
+    color:white;
+
+   
+}
+/* .rightarrow */
+.rightarrow{
+    background: blue;
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+  
+}
+.rightarrow i{
+    font-size:2rem;
+    color:white;
+
+   
+}
+/* .contact-us */
+.contact-us{
+
+}
+.contactush2 h2{
+    font-size:35px;
+    font-weight: 650;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.contactusinput 
+{
+    margin-top: 55px;
+}
+.contactusinput input{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 200px;
+    width:75%;
+    height:7vh;
+    padding:20px;
+    border:none;
+    outline:none;
+    border:0.25px solid lightgrey;
+    box-shadow:0 8px 32px 0 rgba(125, 131, 211, 0.38);
+  
+}
+.contactusinput textarea{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding:20px;
+    border:none;
+    outline:none;
+    border:0.25px solid lightgrey;
+    box-shadow:0 8px 32px 0 rgba(125, 131, 211, 0.38);
+    width:75%;
+}
+/* contactus-button */
+.contactus-button{
+    color:white;
+    background: blue;
+    width:150px;
+    height:45px;
+    margin-left: 200px;
+    margin-top: 30px;
+    text-align:center;
+}
+.contactus-button button{
+    color:white;
+    background: transparent;
+    text-align:center;
+    padding-top: 10px;
+    font-size:18PX;
+    font-weight: 400;
+}
+/* getintouch */
+.getintouch{
+    margin-top: 100px;
+    background: rgb(8, 8, 50);
+    width:100%;
+    height:65vh;
+    color:white;
+}
+
+.getintouchh3 h3{
+    text-align:center;
+    padding-top: 70px;
+}
+.location {
+    margin-left: 300px;
+}
+.location i{
+    background: blue;
+    width:75px;
+    height:75px;
+    border-radius:100%;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size:1.3rem;  
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: .8;
+}
+.location p{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+/* .phone */
+
+.phone i{
+    background: blue;
+    width:75px;
+    height:75px;
+    border-radius:100%;
+    margin-top: 40px;
+    margin-left: 210px;
+    font-size:1.3rem;  
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: .8;
+}
+.phone p{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+/* email */
+.email i{
+    background: blue;
+    width:75px;
+    height:75px;
+    border-radius:100%;
+    margin-top: 40px;
+    font-size:1.3rem;  
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: .8;
+}
+.email p{
+    margin-top: 30px;
+    margin-left: -40px;
+
+}
+.getintouchhr hr{
+    color:white;
+    border:2px solid white;
+    background: transparent;
+    width:73%;
+    margin-top: 70px;
+    margin-left: 200px;
+
+}
+.getintouchrights p{
+    text-align: center;
+    padding-top: 10px;
 }
